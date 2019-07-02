@@ -5,5 +5,10 @@
 <!-- property binding -->
 <input [value]="myString" />
 <input [required]="myBoolean" />
+
 <input value={{myString}} />
 <input required={{myBoolean}} />
+
+<!-- event binding-->
+<button (click)="alertMe1()"> Click me </button>
+<button (click)="alertMe2('I like cherry')"> My fruit </button>
