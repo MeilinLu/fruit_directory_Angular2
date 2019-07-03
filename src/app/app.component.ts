@@ -13,4 +13,7 @@ export class AppComponent {
     color: "Yellow",
     price: "$0.59"
   }
+  sale(e){
+    alert("This fruit is on sale");
+  }
 }

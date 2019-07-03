@@ -8,5 +8,5 @@
   </nav>
 </header>
 <section id="main">
-  <app-home [fruit]="fruit">Hi, fruit!</app-home>
+  <app-home [fruit]="fruit" (onSale)="sale($event)">Hi, fruit!</app-home>
 </section>
