@@ -7,4 +7,10 @@ import { HomeComponent } from './home/home.component';
 })
 export class AppComponent {
   title = 'app works!';
+  name = 'fruit';
+  fruit = {
+    name: "Banana",
+    color: "Yellow",
+    price: "$0.59"
+  }
 }

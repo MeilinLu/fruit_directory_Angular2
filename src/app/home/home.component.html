@@ -3,7 +3,7 @@
 </p>
 
 <!-- property binding -->
-<input [value]="myString" />
+<!--input [value]="myString" />
 <input [required]="myBoolean" />
 
 <input value={{myString}} />
@@ -12,18 +12,18 @@
 <br><br>
 
 <!-- event binding-->
-<button (click)="alertMe1()"> Click me </button>
+<!--button (click)="alertMe1()"> Click me </button>
 <button (click)="alertMe2('I like cherry')"> My fruit </button>
 
 <br><br>
 
 <!-- 2-way data binding-->
 <label> Name: </label>
-<input [(ngModel)]="fruit.name" />
+<!--input [(ngModel)]="fruit.name" /-->
 <label> Color: </label>
-<input [(ngModel)]="fruit.color" />
+<!--input [(ngModel)]="fruit.color" /-->
 <label> Price: </label>
-<input [(ngModel)]="fruit.price" />
+<!--input [(ngModel)]="fruit.price" /-->
 <p>
   {{ fruit.name }}
   {{ fruit.color }}
